@@ -1,6 +1,9 @@
 name: End-to-End tests with TestCafe action  
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - '**'
